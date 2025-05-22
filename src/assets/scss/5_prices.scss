@@ -1,0 +1,44 @@
+.prices {
+  margin-top: 50px;
+}
+.prices__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.prices__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.prices__title {
+  @include h2Title;
+}
+.prices__txt {
+  line-height: 20px;
+}
+.prices__table {
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+th {
+  background-color: #1976d2;
+  color: white;
+  font-weight: 700;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+td:first-child {
+  text-align: left;
+}
