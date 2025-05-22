@@ -1,0 +1,47 @@
+.locksmith__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.locksmith__imgWrp {
+  max-width: 100%;
+  max-height: 100%;
+}
+.locksmith__img {
+  width: 100%;
+  height: 100%;
+}
+.locksmith__title {
+  @include h1Title;
+}
+.locksmith__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.locksmith__txt {
+  line-height: 20px;
+}
+.locksmith__btnWrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.locksmith__btnTel {
+  @include btn;
+}
+.locksmith__btnMessage {
+  @include btn;
+  background-color: var(--mainColor);
+  span {
+    position: relative;
+    &::before {
+      background-image: url("../icons/messageTelegram.png");
+    }
+  }
+  &:hover {
+    background-color: #033064;
+  }
+}
