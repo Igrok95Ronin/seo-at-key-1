@@ -1,0 +1,47 @@
+.hourlyService {
+  margin-top: 30px;
+}
+.hourlyService__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.hourlyService__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hourlyService__title {
+  @include h2Title;
+}
+.hourlyService__txt {
+  line-height: 20px;
+}
+.hourlyService__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hourlyService__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hourlyService__subTitle {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 25px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/greenCheck.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+}
