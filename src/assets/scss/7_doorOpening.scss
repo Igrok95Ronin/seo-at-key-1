@@ -1,0 +1,28 @@
+.doorOpening {
+  margin-top: 50px;
+}
+.doorOpening__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.doorOpening__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.doorOpening__title {
+  @include h2Title;
+}
+.doorOpening__txt {
+  line-height: 20px;
+}
+.doorOpening__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.doorOpening__wrp {
+}
+.doorOpening__subTitle {
+}
