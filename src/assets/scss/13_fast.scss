@@ -1,0 +1,28 @@
+.fast {
+  margin-top: 50px;
+}
+.fast__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.fast__left,
+.fast__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.fast__title {
+  @include h2Title;
+}
+.fast__txt {
+  line-height: 20px;
+}
+.fast__subTitle {
+  margin-bottom: 0;
+}
+.fast__ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 20px;
+}
