@@ -1,0 +1,36 @@
+.faq {
+  margin-top: 50px;
+}
+.faq__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.faq__left,
+.faq__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq__title {
+  @include h2Title;
+}
+.faq__wrp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.faq__subTitle {
+  margin-bottom: 0;
+}
+.faq__txt {
+  line-height: 20px;
+}
+.faq__right {
+}
+.locksmith__btnWrp {
+}
+.locksmith__btnTel {
+}
+.locksmith__btnMessage {
+}
