@@ -1,0 +1,35 @@
+.openingCar {
+  margin-top: 50px;
+}
+.openingCar__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.openingCar__left,
+.openingCar__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.openingCar__title {
+  @include h2Title;
+}
+.openingCar__txt {
+  line-height: 20px;
+}
+.openingCar__subTitle {
+  margin-bottom: 0;
+}
+.openingCar__ul {
+  line-height: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.locksmith__btnWrp {
+}
+.locksmith__btnTel {
+}
+.locksmith__btnMessage {
+}
