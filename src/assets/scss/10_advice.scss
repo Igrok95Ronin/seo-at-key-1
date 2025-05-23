@@ -1,0 +1,32 @@
+.advice {
+  margin-top: 50px;
+}
+.advice__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.advice__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.advice__title {
+  @include h2Title;
+}
+.advice__txt {
+  line-height: 20px;
+}
+.advice__subTitle {
+}
+.advice__wrp {
+}
+.advice__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cheap__btnWrp {
+}
+.cheap__btn {
+}
