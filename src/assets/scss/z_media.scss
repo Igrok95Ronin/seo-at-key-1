@@ -1,11 +1,32 @@
-@media(max-width: 500px) {
-    .btnFixedD {
-        display: none;
-    }
-    .btnFixed {
-        display: block;
-    }
-    footer {
-        margin-bottom: 60px;
-    }
+@media (max-width: 767px) {
+  .locksmith__box,
+  .hourlyService__box,
+  .process__wrapper,
+  .prices__box,
+  .cheap__box,
+  .doorOpening__box,
+  .whenCanDamageOccur__box,
+  .reviews__box,
+  .advice__box,
+  .modernTechnology__box,
+  .saveOurNumber__box,
+  .fast__box,
+  .changeLock__box,
+  .openingCar__box,
+  .openingASafe__box,
+  .aboutUs__box,
+  .faq__box {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .btnFixedD {
+    display: none;
+  }
+  .btnFixed {
+    display: block;
+  }
+  footer {
+    margin-bottom: 60px;
+  }
 }

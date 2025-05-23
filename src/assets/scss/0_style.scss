@@ -134,7 +134,7 @@ h3 {
   transform: translateY(-10px);
 }
 @mixin h2Title {
-  font-size: clamp(26px, 5vw, 28px);
+  font-size: clamp(24px, 5vw, 28px);
   font-weight: 600;
   margin: 0;
 }
@@ -166,4 +166,9 @@ h3 {
     background-color: #038b4c;
     color: #fff;
   }
+}
+
+.btnFixedD__img {
+  all: unset !important;
+  width: 100%;
 }
