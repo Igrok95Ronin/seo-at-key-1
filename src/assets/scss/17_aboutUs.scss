@@ -6,8 +6,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.aboutUs__left,
-.aboutUs__right {
+.aboutUs__left {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -31,8 +30,18 @@
 .aboutUs__imgWrp {
   max-width: 100%;
   max-height: 100%;
+  margin: 0 auto; /* Центрируем блок */
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
 }
 .aboutUs__img {
   width: 100%;
   height: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  display: block;
+  border-radius: 16px; /* Скругление углов */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+  border: 1px solid #eee; /* Светлая рамка */
 }

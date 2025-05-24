@@ -3,13 +3,13 @@
 }
 .prices__box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  // grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 .prices__content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 .prices__title {
   @include h2Title;

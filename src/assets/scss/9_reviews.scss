@@ -33,12 +33,32 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
 }
+// .reviews__imgWrp {
+//   max-width: 100%;
+//   max-height: 100%;
+// }
+// .reviews__img {
+//   height: 100%;
+//   width: 100%;
+//   object-fit: cover;
+// }
 .reviews__imgWrp {
-  max-width: 100%;
-  max-height: 100%;
-}
-.reviews__img {
-  height: 100%;
   width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  // height: 350px;     /* Задаём высоту */
+  margin: 0 auto; /* Центрируем блок */
+  overflow: hidden; /* Обрезаем выходящее изображение */
+  border-radius: 16px; /* Скругление углов */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+  border: 1px solid #eee; /* Светлая рамка */
+}
+
+.reviews__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
