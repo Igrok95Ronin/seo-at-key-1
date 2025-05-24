@@ -18,6 +18,12 @@
   .faq__box {
     grid-template-columns: 1fr;
   }
+  .whenCanDamageOccur__imgWrp {
+    display: none;
+  }
+  .whenCanDamageOccur__box {
+    gap: 0;
+  }
 }
 @media (max-width: 500px) {
   .btnFixedD {
